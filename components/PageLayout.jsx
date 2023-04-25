@@ -1,7 +1,7 @@
-import Nav from 'Nav'
-import Footer from 'Footer'
+import Nav from './Nav'
+import Footer from './Footer'
 
-export default function PageLayout() {
+export default function PageLayout({children}) {
   return (
     <>
       <Nav />
