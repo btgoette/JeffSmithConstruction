@@ -1,0 +1,15 @@
+.btn {
+  text-transform: uppercase;
+  padding: 5px 10px;
+
+  &.btn-primary {
+    background-color: $gold;
+    border-color: transparent;
+    color: $black;
+
+    &:focus,
+    &:hover {
+      background-color: $dark-gold;
+    }
+  }
+}

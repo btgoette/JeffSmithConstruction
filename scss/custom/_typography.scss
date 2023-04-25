@@ -1,0 +1,24 @@
+.text-sm {
+  font-size: 0.75rem;
+}
+
+.text-gold {
+  color: $gold;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: 700;
+}
+
+a {
+  color: $gold;
+  font-weight: 600;
+  &:hover {
+    color: $dark-gold;
+  }
+}
