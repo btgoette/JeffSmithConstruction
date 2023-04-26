@@ -1,0 +1,13 @@
+.card {
+  background-color: $blue;
+  .card-body {
+    color: $white;
+    padding: 2rem 1.5rem;
+    .card-title {
+      text-align: center;
+      font-weight: 700;
+      color: $gold;
+      text-shadow: 0px 0px 2px $blue;
+    }
+  }
+}

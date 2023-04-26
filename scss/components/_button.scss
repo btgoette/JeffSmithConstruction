@@ -1,0 +1,18 @@
+.btn {
+  font-family: $button-font-family;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+
+  &.btn-primary {
+    background: linear-gradient(90deg, $gold 0%, $light-gold 100%);
+    border-color: transparent;
+    color: $blue;
+    transition: 0.5s;
+
+    &:focus,
+    &:hover {
+      background: linear-gradient(90deg, $light-gold 0%, $light-gold 100%);
+    }
+  }
+}

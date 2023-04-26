@@ -1,0 +1,19 @@
+.bg-black,
+.bg-gray-900 {
+  color: $white;
+  a {
+    color: $white;
+  }
+}
+
+.bg-gray-900 {
+  background-color: #212529;
+}
+
+.bg-blue {
+  background: linear-gradient(45deg, $blue 0%, $light-blue 100%);
+}
+
+.bg-gold {
+  background: linear-gradient($gold 0%, $light-gold 100%)
+}
