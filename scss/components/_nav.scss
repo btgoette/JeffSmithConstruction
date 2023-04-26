@@ -1,0 +1,39 @@
+nav {
+  font-family: $nav-font-family;
+  border-bottom: 1px solid $gold;
+
+  .navbar-toggler {
+    border-color: $white;
+
+    .navbar-toggler-icon {
+      border-color: $white;
+    }
+  }
+
+  .show > .nav-link,
+  .nav-link {
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: $white;
+    transition: 0.5s;
+    &:hover,
+    &:focus,
+    &:active {
+      background: -webkit-linear-gradient(0deg, $gold 0%, $light-gold 60%);
+      background-clip: text;
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+  .dropdown-item {
+    text-decoration: none;
+    font-size: 1rem;
+    color: $blue;
+    &:hover {
+      background-color: $gold;
+      color: $blue;
+    }
+  }
+}
