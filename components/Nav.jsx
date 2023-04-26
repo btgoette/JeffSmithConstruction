@@ -7,21 +7,25 @@ import {
   Nav,
   NavDropdown,
   Offcanvas,
-  Image
+  Image,
 } from "react-bootstrap";
 import Link from "next/link";
 import { ReactSVG } from "react-svg";
 
 export default function CustomNav() {
   return (
-    <Navbar collapseOnSelect expand="lg" className="bg-blue" variant="light">
+    <Navbar collapseOnSelect expand="xl" className="bg-blue" variant="dark">
       <Container>
         <Navbar.Brand href="/">
-          <Image
-            src="/images/logos/jscs.png"
-            alt="Jeff Smith Construction"
-            className="logo"
-          />
+          <div className="nav-logo logo d-flex align-items-center">
+            <figure className="mb-0">
+              <Image
+                src="images/logos/jscs-gradient.webp"
+                alt="Jeff Smith Construction"
+              />
+            </figure>
+            <p className="ps-3 mt-3 mb-0">JSCS Inc.</p>
+          </div>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
@@ -66,11 +70,11 @@ export default function CustomNav() {
             </NavDropdown>
           </Nav>
           <Nav>
-            <Nav.Link href="/contact-jeffsmithconstruction">
+            <a href="/contact-jeffsmithconstruction">
               <Button className="btn btn-primary">
-                Tell Us About Your Project
+                Request Services
               </Button>
-            </Nav.Link>
+            </a>
           </Nav>
         </Navbar.Collapse>
       </Container>

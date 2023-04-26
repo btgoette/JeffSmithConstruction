@@ -2,10 +2,10 @@ import { Container, Row, Col, Image } from "react-bootstrap";
 
 export default function Section() {
   return (
-    <section className="bg-blue text-white py-3">
+    <section className="bg-blue text-white p-4">
       <Container>
         <Row className="align-items-center">
-          <Col lg={{ span: 8, offset: 2 }} className="py-5 px-4">
+          <Col lg={{ span: 8, offset: 2 }} className="p-4">
             <h1 className="text-gold text-center mb-3">
               Discover Jeff Smith Construction
             </h1>

@@ -1,5 +1,6 @@
 import { Container, Row, Col, Image } from "react-bootstrap";
 import Marquee from "react-fast-marquee";
+import Link from "next/link";
 
 export default function Footer() {
   const today = new Date();
@@ -8,12 +9,89 @@ export default function Footer() {
     <>
       <footer>
         <section className="bg-blue text-white">
-          <Container className="py-5">
-            <Row>
-              <Col md={3}>Column1</Col>
-              <Col md={3}>Column2</Col>
-              <Col md={3}>Column3</Col>
-              <Col md={3}>Column4</Col>
+          <Container className="px-4 py-5">
+            <Row className="align-items-center">
+              <Col md="6" lg={{ span: 4, offset: 1 }}>
+                <div className="footer-logo logo d-flex align-items-center">
+                  <figure>
+                    <Image
+                      src="images/logos/jscs-gradient.webp"
+                      alt="Jeff Smith Construction"
+                    />
+                  </figure>
+                  <p className="ps-3 mb-0">JSCS Inc.</p>
+                </div>
+                <p>
+                  General Contractor License #634094 (CA) Fully Licensed, Bonded
+                  and Insured
+                </p>
+                <p className="footer-socials">
+                  <a href="https://www.yelp.com/biz/jeff-smith-construction-rocklin">
+                    <Image src="images/footer/yelp.webp" alt="Yelp" />
+                  </a>
+                  <a href="https://www.facebook.com/JSCS-Inc-101017868396872">
+                    <Image src="images/footer/facebook.webp" alt="Facebook" />
+                  </a>
+                  <a href="https://www.bbb.org/us/ca/newcastle/profile/general-contractor/jeff-smith-construction-1156-90029915">
+                    <Image src="images/footer/bbb.webp" alt="BBB" />
+                  </a>
+                </p>
+                <p className="footer-address">
+                  <a href="tel=9166633000">916-663-3000</a>
+                  <br />
+                  5406 Crosssing Dr.
+                  <br />
+                  Suite 102-385
+                  <br />
+                  Rocklin, CA 95677
+                </p>
+              </Col>
+              <Col md="6" lg={{ span: 4, offset: 1 }}>
+                <Row className="mb-2">
+                  <Col>
+                    <Link href="/about-jeffsmithconstruction">About Us</Link>
+                    <br />
+                    <Link href="/construction-services">Our Services</Link>
+                    <br />
+                    <div className="border-start ps-2">
+                      <Link href="/commercial-construction">
+                        Commercial Design/Build
+                      </Link>
+                      <br />
+                      <Link href="/tenant-improvements">
+                        Tenant Improvements
+                      </Link>
+                      <br />
+                    </div>
+                    <Link href="/featured-projects">Featured Projects</Link>
+                  </Col>
+                  <Col>
+                    <Link href="/construction-gallery">Gallery</Link>
+                    <br />
+                    <div className="border-start ps-2">
+                      <Link href="/office-construction-gallery">
+                        Office Gallery
+                      </Link>
+                      <br />
+                      <Link href="/restaurant-construction-gallery">
+                        Restaurant Gallery
+                      </Link>
+                      <br />
+                      <Link href="/retail-construction-gallery">
+                        Retail Gallery
+                      </Link>
+                      <br />
+                    </div>
+                    <Link href="/jscs-testimonials">Testimonials</Link>
+                  </Col>
+                </Row>
+
+                <p>
+                  We were founded with the desire to do it better. Working
+                  together with teams of highly skilled architects, designers
+                  and tradesmen that want to develop a better way to build.
+                </p>
+              </Col>
             </Row>
           </Container>
         </section>
@@ -333,11 +411,11 @@ export default function Footer() {
                     title="Website design by Brymels LLC Website Designer Roseville CA"
                   >
                     &nbsp;
-                    <u class="color">Website Design</u>&nbsp;
+                    <u className="color">Website Design</u>&nbsp;
                   </a>
                   by Brymels LLC.&nbsp;|&nbsp;
                   <a href="privacy-policy.htm" title="privacy policy">
-                    <u class="color">Privacy Policy</u>
+                    <u className="color">Privacy Policy</u>
                   </a>
                 </p>
               </Col>

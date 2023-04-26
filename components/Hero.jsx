@@ -8,17 +8,17 @@ export default function Hero() {
           <Carousel.Item>
             <Image
               className="d-none d-xl-block w-100"
-              src="images/home/hero-1.png"
+              src="images/home/hero-1.webp"
               alt="First slide"
             />
             <Image
               className="d-none d-sm-block d-xl-none w-100"
-              src="images/home/hero-t-1.png"
+              src="images/home/hero-t-1.webp"
               alt="Third slide"
             />
             <Image
               className="d-block d-sm-none w-100"
-              src="images/home/hero-m-1.png"
+              src="images/home/hero-m-1.webp"
               alt="Third slide"
             />
             <Carousel.Caption className="text-start">
@@ -41,25 +41,24 @@ export default function Hero() {
           <Carousel.Item>
             <Image
               className="d-none d-xl-block w-100"
-              src="images/home/hero-3.png"
+              src="images/home/hero-3.webp"
               alt="Second slide"
             />
             <Image
               className="d-none d-sm-block d-xl-none w-100"
-              src="images/home/hero-t-3.png"
+              src="images/home/hero-t-3.webp"
               alt="Third slide"
             />
             <Image
               className="d-block d-sm-none w-100"
-              src="images/home/hero-m-3.png"
+              src="images/home/hero-m-3.webp"
               alt="Third slide"
             />
             <Carousel.Caption className="text-start">
               <Row>
                 <Col xl="8">
                   <h2>
-                    Design your dream. <br />
-                    Creating our vision.
+                    Design your dream. Creating our vision.
                   </h2>
                   <p>
                     We&apos;re revolutionizing the construction industry by
@@ -76,17 +75,17 @@ export default function Hero() {
           <Carousel.Item>
             <Image
               className="d-none d-xl-block w-100"
-              src="images/home/hero-4.png"
+              src="images/home/hero-4.webp"
               alt="Third slide"
             />
             <Image
               className="d-none d-sm-block d-xl-none w-100"
-              src="images/home/hero-t-4.png"
+              src="images/home/hero-t-4.webp"
               alt="Third slide"
             />
             <Image
               className="d-block d-sm-none w-100"
-              src="images/home/hero-m-4.png"
+              src="images/home/hero-m-4.webp"
               alt="Third slide"
             />
             <Carousel.Caption className="text-start">
@@ -106,7 +105,7 @@ export default function Hero() {
                 <Col xl="4">
                   <Image
                     className="d-none d-xl-block"
-                    src="images/home/plans.png"
+                    src="images/home/plans.webp"
                     alt="Floor Plans"
                   />
                 </Col>

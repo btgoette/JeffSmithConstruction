@@ -5,8 +5,8 @@ export default function Cards() {
     <>
       <section>
         <Container>
-          <Row>
-            <Col className="pt-5 pb-2 px-4">
+          <Row className="my-4">
+            <Col className="px-4">
               <h2 className="text-gold">Why Choose Us?</h2>
               <p>
                 At Jeff Smith Construction, we&apos;re on a mission to
@@ -18,10 +18,10 @@ export default function Cards() {
               </p>
             </Col>
           </Row>
-          <Row>
-            <Col lg={4} className="py-2 px-4">
+          <Row className="my-4">
+            <Col lg={4} className="p-4">
               <Card>
-                <Card.Img variant="top" src="images/home/home-1.png" />
+                <Card.Img variant="top" src="images/home/home-1.webp" />
                 <Card.Body>
                   <Card.Title>Customized Budgeting</Card.Title>
                   <Card.Text>
@@ -36,9 +36,9 @@ export default function Cards() {
                 </Card.Body>
               </Card>
             </Col>
-            <Col lg={4} className="py-2 px-4">
+            <Col lg={4} className="p-4">
               <Card>
-                <Card.Img variant="top" src="images/home/home-2.png" />
+                <Card.Img variant="top" src="images/home/home-2.webp" />
                 <Card.Body>
                   <Card.Title>Always Organized</Card.Title>
                   <Card.Text>
@@ -53,9 +53,9 @@ export default function Cards() {
                 </Card.Body>
               </Card>
             </Col>
-            <Col lg={4} className="py-2 px-4">
+            <Col lg={4} className="p-4">
               <Card>
-                <Card.Img variant="top" src="images/home/home-3.png" />
+                <Card.Img variant="top" src="images/home/home-3.webp" />
                 <Card.Body>
                   <Card.Title>Always with quality</Card.Title>
                   <Card.Text>
@@ -71,7 +71,7 @@ export default function Cards() {
               </Card>
             </Col>
           </Row>
-          <Row>
+          <Row className="my-4">
             <Col className="pt-3 pb-5 px-4">
               <p>
                 We&apos;re on a mission to revolutionize the traditional

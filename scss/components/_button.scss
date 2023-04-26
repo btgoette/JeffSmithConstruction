@@ -1,15 +1,18 @@
 .btn {
+  font-family: $button-font-family;
+  font-size: 1rem;
+  font-weight: 600;
   text-transform: uppercase;
-  padding: 5px 10px;
 
   &.btn-primary {
-    background-color: $gold;
+    background: linear-gradient(90deg, $gold 0%, $light-gold 100%);
     border-color: transparent;
-    color: $black;
+    color: $blue;
+    transition: 0.5s;
 
     &:focus,
     &:hover {
-      background-color: $dark-gold;
+      background: linear-gradient(90deg, $light-gold 0%, $light-gold 100%);
     }
   }
 }

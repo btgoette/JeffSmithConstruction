@@ -11,18 +11,16 @@
       .row {
         align-items: center;
         h2 {
+          margin-top: 0;
           font-weight: 700;
         }
         p {
           font-weight: 700;
+          font-size:1rem;
         }
         @media screen and (min-width: 577px) {
           h2 {
             font-size: 2.25rem;
-            font-weight: 700;
-          }
-          p {
-            font-size: 1.15rem;
             font-weight: 700;
           }
         }
