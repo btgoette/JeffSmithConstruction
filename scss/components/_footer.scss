@@ -13,4 +13,10 @@ footer {
     border-width: 2px !important;
     border-color: transparent transparent transparent $white;
   }
+  a:hover {
+    background: -webkit-linear-gradient(0deg, $gold 0%, $light-gold 60%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
 }

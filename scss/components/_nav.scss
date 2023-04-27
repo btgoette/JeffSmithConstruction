@@ -2,8 +2,8 @@ nav {
   font-family: $nav-font-family;
   border-bottom: 1px solid $gold;
 
-  button{
-    margin:1rem 0;
+  button {
+    margin: 1rem 0;
   }
 
   .navbar-toggler {
@@ -32,6 +32,8 @@ nav {
     border-radius: 0;
     border-width: 2px;
     border-color: transparent transparent transparent $white;
+    padding: 0 0;
+    overflow: hidden;
     .dropdown-item {
       font-weight: 600;
       color: $white;
@@ -43,8 +45,7 @@ nav {
     @media screen and (min-width: 1200px) {
       background-color: $white;
       border-radius: 5px;
-      border-width: 1px;
-      border-color: $white;
+      border-width: 0px;
       a.dropdown-item {
         color: $blue;
         &:hover {
