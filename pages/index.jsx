@@ -5,7 +5,7 @@ import Cards from "components/Cards";
 export default function Home() {
   return (
     <div>
-      <Carousels/>
+      <Carousels />
       <Section />
       <Cards />
     </div>
