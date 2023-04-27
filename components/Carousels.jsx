@@ -1,6 +1,6 @@
 import { Carousel, Row, Col, Image } from "react-bootstrap";
 
-export default function Hero() {
+export default function Carousels() {
   return (
     <>
       <section>
