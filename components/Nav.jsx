@@ -10,7 +10,6 @@ import {
   Image,
 } from "react-bootstrap";
 import Link from "next/link";
-import { ReactSVG } from "react-svg";
 
 export default function CustomNav() {
   return (
