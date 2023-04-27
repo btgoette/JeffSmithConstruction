@@ -1,11 +1,11 @@
-import Hero from "components/Hero";
+import Carousels from "components/Carousels";
 import Section from "components/Section";
 import Cards from "components/Cards";
 
 export default function Home() {
   return (
     <div>
-      <Hero />
+      <Carousels/>
       <Section />
       <Cards />
     </div>
