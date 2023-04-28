@@ -10,7 +10,6 @@ import {
   Image,
 } from "react-bootstrap";
 import Link from "next/link";
-import { ReactSVG } from "react-svg";
 
 export default function CustomNav() {
   return (
@@ -20,7 +19,7 @@ export default function CustomNav() {
           <div className="nav-logo logo d-flex align-items-center">
             <figure className="mb-0">
               <Image
-                src="images/logos/jscs-gradient.webp"
+                src="/images/logos/jscs-gradient.webp"
                 alt="Jeff Smith Construction"
               />
             </figure>
@@ -31,46 +30,46 @@ export default function CustomNav() {
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mx-auto">
             {/* <Nav.Link href="/">Home</Nav.Link> */}
-            <Nav.Link href="/about-jeffsmithconstruction">About Us</Nav.Link>
+            <Nav.Link href="/about/">About Us</Nav.Link>
             <NavDropdown title="Services">
-              <NavDropdown.Item href="/construction-services">
+              <NavDropdown.Item href="/services/">
                 Our Services
               </NavDropdown.Item>
-              <NavDropdown.Item href="/commercial-construction">
+              <NavDropdown.Item href="/services/commercial-construction">
                 Commercial Design/Build
               </NavDropdown.Item>
-              <NavDropdown.Item href="/tenant-improvements">
+              <NavDropdown.Item href="/services/tenant-improvements">
                 Tenant Improvements
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="/featured-projects">Featured Projects</Nav.Link>
+            <Nav.Link href="/featured-projects/">Featured Projects</Nav.Link>
             <NavDropdown title="Gallery">
-              <NavDropdown.Item href="/construction-gallery">
+              <NavDropdown.Item href="/gallery/">
                 Gallery
               </NavDropdown.Item>
               {/* <NavDropdown.Divider className="d-none d-xl-block" /> */}
-              <NavDropdown.Item href="/office-construction-gallery">
+              <NavDropdown.Item href="/gallery/office-gallery">
                 Office Gallery
               </NavDropdown.Item>
-              <NavDropdown.Item href="/restaurant-construction-gallery">
+              <NavDropdown.Item href="/gallery/restaurant-gallery">
                 Restaurant Gallery
               </NavDropdown.Item>
-              <NavDropdown.Item href="/retail-construction-gallery">
+              <NavDropdown.Item href="/retail-gallery">
                 Retail Gallery
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="/jscs-testimonials">Testimonials</Nav.Link>
+            <Nav.Link href="/testimonials/">Testimonials</Nav.Link>
             <NavDropdown title="Contact">
-              <NavDropdown.Item href="/contact-jeffsmithconstruction">
+              <NavDropdown.Item href="/contact/">
                 Contact Us
               </NavDropdown.Item>
-              <NavDropdown.Item href="/jeffsmithconstruction-careers">
+              <NavDropdown.Item href="/contact/careers">
                 Careers
               </NavDropdown.Item>
             </NavDropdown>
           </Nav>
           <Nav>
-            <a href="/contact-jeffsmithconstruction">
+            <a href="/contact/">
               <Button className="btn btn-primary">
                 Request Services
               </Button>

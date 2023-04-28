@@ -3,7 +3,7 @@ import { Container, Row, Col, Card, Image, Button } from "react-bootstrap";
 export default function Cards() {
   return (
     <>
-      <section>
+      <section className="py-5">
         <Container>
           <Row className="my-4">
             <Col className="px-4">
@@ -20,8 +20,8 @@ export default function Cards() {
           </Row>
           <Row className="my-4">
             <Col lg={4} className="p-4">
-              <Card>
-                <Card.Img variant="top" src="images/home/home-1.webp" />
+              <Card className="hvr-grow-rotate">
+                <Card.Img variant="top" src="/images/home/home-1.webp" />
                 <Card.Body>
                   <Card.Title>Customized Budgeting</Card.Title>
                   <Card.Text>
@@ -37,8 +37,8 @@ export default function Cards() {
               </Card>
             </Col>
             <Col lg={4} className="p-4">
-              <Card>
-                <Card.Img variant="top" src="images/home/home-2.webp" />
+              <Card className="hvr-grow-rotate">
+                <Card.Img variant="top" src="/images/home/home-2.webp" />
                 <Card.Body>
                   <Card.Title>Always Organized</Card.Title>
                   <Card.Text>
@@ -54,8 +54,8 @@ export default function Cards() {
               </Card>
             </Col>
             <Col lg={4} className="p-4">
-              <Card>
-                <Card.Img variant="top" src="images/home/home-3.webp" />
+              <Card className="hvr-grow-rotate">
+                <Card.Img variant="top" src="/images/home/home-3.webp" />
                 <Card.Body>
                   <Card.Title>Always with quality</Card.Title>
                   <Card.Text>
