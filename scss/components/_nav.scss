@@ -45,7 +45,8 @@ nav {
     @media screen and (min-width: 1200px) {
       background-color: $white;
       border-radius: 5px;
-      border-width: 0px;
+      border-width: 1px;
+      border-color: $blue;
       a.dropdown-item {
         color: $blue;
         &:hover {

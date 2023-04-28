@@ -7,6 +7,9 @@
   color: $blue;
   a {
     color: $blue;
+    &:hover {
+      color: $light-blue;
+    }
   }
 }
 
