@@ -71,17 +71,13 @@ export default function Footer() {
                     <Link href="/gallery/">Gallery</Link>
                     <br />
                     <div className="border-start ps-2">
-                      <Link href="/gallery/office-gallery">
-                        Office Gallery
-                      </Link>
+                      <Link href="/gallery/office-gallery">Office Gallery</Link>
                       <br />
                       <Link href="/gallery/restaurant-gallery">
                         Restaurant Gallery
                       </Link>
                       <br />
-                      <Link href="/gallery/retail-gallery">
-                        Retail Gallery
-                      </Link>
+                      <Link href="/gallery/retail-gallery">Retail Gallery</Link>
                       <br />
                     </div>
                     <Link href="/testimonials/">Testimonials</Link>
@@ -411,12 +407,11 @@ export default function Footer() {
                     target="top"
                     title="Website design by Brymels LLC Website Designer Roseville CA"
                   >
-                    &nbsp;
-                    <u className="color">Website Design</u>&nbsp;
-                  </Link>
+                    Website Design
+                  </Link>&nbsp;
                   by Brymels LLC.&nbsp;|&nbsp;
-                  <Link href="privacy-policy.htm" title="privacy policy">
-                    <u className="color">Privacy Policy</u>
+                  <Link href="/policies/privacy-policy" title="privacy policy">
+                    Privacy Policy
                   </Link>
                 </p>
               </Col>
