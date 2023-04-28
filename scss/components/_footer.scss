@@ -8,4 +8,12 @@ footer {
   .footer-address {
     font-size: 1rem;
   }
+  .border-start {
+    border-radius: 0;
+    border-width: 2px !important;
+    border-color: transparent transparent transparent $white;
+  }
+  a:hover {
+    color: $light-gold;
+  }
 }
