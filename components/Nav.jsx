@@ -69,11 +69,11 @@ export default function CustomNav() {
             </NavDropdown>
           </Nav>
           <Nav>
-            <a href="/contact/">
+            <Link href="/contact/">
               <Button className="btn btn-primary">
                 Request Services
               </Button>
-            </a>
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
