@@ -1,7 +1,13 @@
+import Hero from "components/Hero";
+
+let hero = {
+  title: "403 Page Forbidden",
+};
+
 export default function Error403() {
-    return(
-        <>
-            <h1 className="text-center">Error 403</h1>
-        </>
-    )
+  return (
+    <div>
+      <Hero {...hero} />
+    </div>
+  );
 }

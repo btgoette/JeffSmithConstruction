@@ -1,7 +1,13 @@
+import Hero from "components/Hero";
+
+let hero = {
+  title: "Privacy Policy",
+};
+
 export default function PrivacyPolicy() {
-    return(
-        <>
-            <h1 className="text-center">Privacy Policy</h1>
-        </>
-    )
+  return (
+    <div>
+      <Hero {...hero} />
+    </div>
+  );
 }

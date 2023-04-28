@@ -1,13 +1,13 @@
 import Hero from "components/Hero";
-import Section from "components/Section";
-import Cards from "components/Cards";
+
+let hero = {
+  title:"About Jeff Smith Construction"
+}
 
 export default function About() {
   return (
     <div>
-      <Hero />
-      <Section />
-      <Cards />
+      <Hero {...hero}/>
     </div>
   );
 }

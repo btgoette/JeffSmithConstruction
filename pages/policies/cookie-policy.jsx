@@ -1,7 +1,13 @@
+import Hero from "components/Hero";
+
+let hero = {
+  title:"Cookie Policy"
+}
+
 export default function CookiePolicy() {
-    return(
-        <>
-            <h1 className="text-center">Cookie Policy</h1>
-        </>
-    )
+  return (
+    <div>
+      <Hero {...hero}/>
+    </div>
+  );
 }

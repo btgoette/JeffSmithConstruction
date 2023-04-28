@@ -1,13 +1,13 @@
 import Hero from "components/Hero";
-import Section from "components/Section";
-import Cards from "components/Cards";
+
+let hero = {
+  title:"Featured Projects"
+}
 
 export default function FeaturedProjects() {
   return (
     <div>
-      <Hero />
-      <Section />
-      <Cards />
+      <Hero {...hero}/>
     </div>
   );
 }
