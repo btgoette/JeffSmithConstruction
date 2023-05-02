@@ -15,7 +15,7 @@ export default function CustomNav() {
   return (
     <Navbar collapseOnSelect expand="xl" className="bg-blue" variant="dark">
       <Container>
-        <Navbar.Brand href="/">
+        <Navbar.Brand href="">
           <div className="nav-logo logo d-flex align-items-center">
             <figure className="mb-0">
               <Image
@@ -29,10 +29,10 @@ export default function CustomNav() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mx-auto">
-            {/* <Nav.Link href="/">Home</Nav.Link> */}
-            <Nav.Link href="/about/">About Us</Nav.Link>
+            {/* <Nav.Link href="">Home</Nav.Link> */}
+            <Nav.Link href="/about">About Us</Nav.Link>
             <NavDropdown title="Services">
-              <NavDropdown.Item href="/services/">
+              <NavDropdown.Item href="/services">
                 Our Services
               </NavDropdown.Item>
               <NavDropdown.Item href="/services/commercial-construction">
@@ -42,9 +42,9 @@ export default function CustomNav() {
                 Tenant Improvements
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="/featured-projects/">Featured Projects</Nav.Link>
+            <Nav.Link href="/featured-projects">Featured Projects</Nav.Link>
             <NavDropdown title="Gallery">
-              <NavDropdown.Item href="/gallery/">
+              <NavDropdown.Item href="/gallery">
                 Gallery
               </NavDropdown.Item>
               {/* <NavDropdown.Divider className="d-none d-xl-block" /> */}
@@ -58,9 +58,9 @@ export default function CustomNav() {
                 Retail Gallery
               </NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link href="/testimonials/">Testimonials</Nav.Link>
+            <Nav.Link href="/testimonials">Testimonials</Nav.Link>
             <NavDropdown title="Contact">
-              <NavDropdown.Item href="/contact/">
+              <NavDropdown.Item href="/contact">
                 Contact Us
               </NavDropdown.Item>
               <NavDropdown.Item href="/contact/careers">
@@ -69,11 +69,11 @@ export default function CustomNav() {
             </NavDropdown>
           </Nav>
           <Nav>
-            <a href="/contact/">
+            <Link href="/contact">
               <Button className="btn btn-primary">
                 Request Services
               </Button>
-            </a>
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

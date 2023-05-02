@@ -29,13 +29,13 @@ export default function Footer() {
                 </p>
                 <p className="footer-socials">
                   <Link href="https://www.yelp.com/biz/jeff-smith-construction-rocklin">
-                    <Image src="images/footer/yelp.webp" alt="Yelp" />
+                    <Image src="/images/footer/yelp.webp" alt="Yelp" />
                   </Link>
                   <Link href="https://www.facebook.com/JSCS-Inc-101017868396872">
-                    <Image src="images/footer/facebook.webp" alt="Facebook" />
+                    <Image src="/images/footer/facebook.webp" alt="Facebook" />
                   </Link>
                   <Link href="https://www.bbb.org/us/ca/newcastle/profile/general-contractor/jeff-smith-construction-1156-90029915">
-                    <Image src="images/footer/bbb.webp" alt="BBB" />
+                    <Image src="/images/footer/bbb.webp" alt="BBB" />
                   </Link>
                 </p>
                 <p className="footer-address">
